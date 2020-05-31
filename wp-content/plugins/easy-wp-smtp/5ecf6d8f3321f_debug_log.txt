@@ -14014,3 +14014,402 @@ CLIENT -> SERVER: </html>
 CLIENT -> SERVER: 
 CLIENT -> SERVER: .
 CLIENT -> SERVER: QUIT
+CLIENT -> SERVER: EHLO localhost
+CLIENT -> SERVER: AUTH LOGIN
+CLIENT -> SERVER: cmFqZW5kcmFzaW5ocmF0aG9kLnJhb0BnbWFpbC5jb20=
+CLIENT -> SERVER: UmFvQDEyMzQ=
+CLIENT -> SERVER: MAIL FROM:<rajendrasinhrathod.rao@gmail.com>
+CLIENT -> SERVER: RCPT TO:<rajendrasinhrathod.rao@gmail.com>
+CLIENT -> SERVER: DATA
+CLIENT -> SERVER: Date: Sun, 31 May 2020 02:02:51 +0000
+CLIENT -> SERVER: To: rajendrasinhrathod.rao@gmail.com
+CLIENT -> SERVER: From: Rao pharmacy <rajendrasinhrathod.rao@gmail.com>
+CLIENT -> SERVER: Reply-To: rajendrasinhrathod.rao@gmail.com
+CLIENT -> SERVER: Subject: =?UTF-8?B?Q29udGVjdCBGb3JtIHN1Ym1pdHRlZCBvbiBSYW8gcGhhcm1hY3k=?=
+CLIENT -> SERVER: Message-ID: <8b77cb80c528cec72896e951370ceee4@localhost>
+CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.27 (https://github.com/PHPMailer/PHPMailer)
+CLIENT -> SERVER: MIME-Version: 1.0
+CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+CLIENT -> SERVER: 
+CLIENT -> SERVER: <!DOCTYPE html>
+CLIENT -> SERVER: <html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+CLIENT -> SERVER: 
+CLIENT -> SERVER: <head>
+CLIENT -> SERVER: 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+CLIENT -> SERVER: 	<meta name="viewport" content="width=device-width, initial-scale=1"> <!-- So that mobile will display zoomed in -->
+CLIENT -> SERVER: 	<meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- enable media queries for windows phone 8 -->
+CLIENT -> SERVER: 	<meta name="format-detection" content="telephone=no"> <!-- disable auto telephone linking in iOS -->
+CLIENT -> SERVER: 	<!--[if gte mso 9]><xml>
+CLIENT -> SERVER: 	 <o:OfficeDocumentSettings>
+CLIENT -> SERVER: 	  <o:AllowPNG/>
+CLIENT -> SERVER: 	  <o:PixelsPerInch>96</o:PixelsPerInch>
+CLIENT -> SERVER: 	 </o:OfficeDocumentSettings>
+CLIENT -> SERVER: 	</xml><![endif]-->
+CLIENT -> SERVER: 	<style>
+CLIENT -> SERVER: 		body {
+CLIENT -> SERVER: 			background-color: #ffffff;
+CLIENT -> SERVER: 			margin: 0;
+CLIENT -> SERVER: 			padding: 10px;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		.header,
+CLIENT -> SERVER: 		.title,
+CLIENT -> SERVER: 		.subtitle,
+CLIENT -> SERVER: 		.footer-text {
+CLIENT -> SERVER: 			font-family: Helvetica, Arial, sans-serif;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		.container-padding {
+CLIENT -> SERVER: 			padding-left: 24px;
+CLIENT -> SERVER: 			padding-right: 24px;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		.header {
+CLIENT -> SERVER: 			font-size: 24px;
+CLIENT -> SERVER: 			font-weight: bold;
+CLIENT -> SERVER: 			font-style: normal;
+CLIENT -> SERVER: 			text-transform: uppercase;
+CLIENT -> SERVER: 			color: #df4726;
+CLIENT -> SERVER: 			background: #ebebeb;
+CLIENT -> SERVER: 			font-family: Helvetica, Arial, sans-serif;
+CLIENT -> SERVER: 			text-align: center !important;
+CLIENT -> SERVER: 			padding: 0px 0px 15px 0px;
+CLIENT -> SERVER: 			line-height: 1.2;
+CLIENT -> SERVER: 			text-decoration: none;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		.header a {
+CLIENT -> SERVER: 			font-size: 24px;
+CLIENT -> SERVER: 			font-weight: bold;
+CLIENT -> SERVER: 			font-style: normal;
+CLIENT -> SERVER: 			text-transform: uppercase;
+CLIENT -> SERVER: 			color: #df4726;
+CLIENT -> SERVER: 			font-family: Helvetica, Arial, sans-serif;
+CLIENT -> SERVER: 			text-decoration: none;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		.header-image {
+CLIENT -> SERVER: 			height: auto;
+CLIENT -> SERVER: 			vertical-align: top;
+CLIENT -> SERVER: 			border: none;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		.full-width-header-image {
+CLIENT -> SERVER: 			width: 100%;
+CLIENT -> SERVER: 			display: block;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		.footer-text,
+CLIENT -> SERVER: 		.footer-text th,
+CLIENT -> SERVER: 		.footer-text td,
+CLIENT -> SERVER: 		.footer-text li {
+CLIENT -> SERVER: 			font-size: 12px;
+CLIENT -> SERVER: 			line-height: 16px;
+CLIENT -> SERVER: 			color: #aaaaaa;
+CLIENT -> SERVER: 			background: #544114;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		.footer-text a,
+CLIENT -> SERVER: 		.footer-text th a,
+CLIENT -> SERVER: 		.footer-text td a,
+CLIENT -> SERVER: 		.footer-text li a {
+CLIENT -> SERVER: 			color: #aaaaaa;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		.container {
+CLIENT -> SERVER: 			width: 600px;
+CLIENT -> SERVER: 			max-width: 600px;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		.content {
+CLIENT -> SERVER: 			padding-top: 12px;
+CLIENT -> SERVER: 			padding-bottom: 12px;
+CLIENT -> SERVER: 			background-color: #ebebeb;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		code {
+CLIENT -> SERVER: 			background-color: #eee;
+CLIENT -> SERVER: 			padding: 0 4px;
+CLIENT -> SERVER: 			font-family: Courier, monospace;
+CLIENT -> SERVER: 			font-size: 12px;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		hr {
+CLIENT -> SERVER: 			border: 0;
+CLIENT -> SERVER: 			border-bottom: 1px solid #cccccc;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		.hr {
+CLIENT -> SERVER: 			height: 1px;
+CLIENT -> SERVER: 			border-bottom: 1px solid #cccccc;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		h1 {
+CLIENT -> SERVER: 			font-size: 23px;
+CLIENT -> SERVER: 			font-weight: normal;
+CLIENT -> SERVER: 			font-style: normal;
+CLIENT -> SERVER: 			text-transform: none;
+CLIENT -> SERVER: 			color: #a06b00;
+CLIENT -> SERVER: 			font-family: Georgia,Times New Roman,serif;
+CLIENT -> SERVER: 			text-align: left;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		h2,
+CLIENT -> SERVER: 		h3,
+CLIENT -> SERVER: 		h4 {
+CLIENT -> SERVER: 			font-size: 17px;
+CLIENT -> SERVER: 			font-weight: normal;
+CLIENT -> SERVER: 			font-style: normal;
+CLIENT -> SERVER: 			text-transform: none;
+CLIENT -> SERVER: 			color: #7478787;
+CLIENT -> SERVER: 			font-family: Arial, Helvetica, sans-serif;
+CLIENT -> SERVER: 			text-align: left;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		.subtitle {
+CLIENT -> SERVER: 			font-size: 16px;
+CLIENT -> SERVER: 			font-weight: 600;
+CLIENT -> SERVER: 			color: #2469A0;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		.subtitle span {
+CLIENT -> SERVER: 			font-weight: 400;
+CLIENT -> SERVER: 			color: #999999;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		.body-text,
+CLIENT -> SERVER: 		.body-text td,
+CLIENT -> SERVER: 		.body-text th,
+CLIENT -> SERVER: 		.body-text li {
+CLIENT -> SERVER: 			font-family: Arial, Helvetica, sans-serif;
+CLIENT -> SERVER: 			font-size: 14px;
+CLIENT -> SERVER: 			color: #000000;
+CLIENT -> SERVER: 			font-weight: normal;
+CLIENT -> SERVER: 			font-style: normal;
+CLIENT -> SERVER: 			line-height: 1.5;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		.body-text,
+CLIENT -> SERVER: 		.body-text td,
+CLIENT -> SERVER: 		.body-text th {
+CLIENT -> SERVER: 			text-align: left;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		a {
+CLIENT -> SERVER: 			color: #a06b00;
+CLIENT -> SERVER: 			font-weight: normal;
+CLIENT -> SERVER: 			font-style: normal;
+CLIENT -> SERVER: 			text-transform: none;
+CLIENT -> SERVER: 			text-decoration: underline;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		.body-text .content-twocol td,
+CLIENT -> SERVER: 		.body-text .content-twocol h1,
+CLIENT -> SERVER: 		.body-text .content-twocol h2,
+CLIENT -> SERVER: 		.body-text .content-twocol h3,
+CLIENT -> SERVER: 		.body-text .content-twocol h4 {
+CLIENT -> SERVER: 			text-align: left;
+CLIENT -> SERVER: 			vertical-align: top;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		body {
+CLIENT -> SERVER: 			margin: 0;
+CLIENT -> SERVER: 			padding: 0;
+CLIENT -> SERVER: 			-ms-text-size-adjust: 100%;
+CLIENT -> SERVER: 			-webkit-text-size-adjust: 100%;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		table {
+CLIENT -> SERVER: 			border-spacing: 0;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		table td {
+CLIENT -> SERVER: 			border-collapse: collapse;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		.ExternalClass {
+CLIENT -> SERVER: 			width: 100%;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		.ExternalClass,
+CLIENT -> SERVER: 		.ExternalClass p,
+CLIENT -> SERVER: 		.ExternalClass span,
+CLIENT -> SERVER: 		.ExternalClass font,
+CLIENT -> SERVER: 		.ExternalClass td,
+CLIENT -> SERVER: 		.ExternalClass div {
+CLIENT -> SERVER: 			line-height: 100%;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		.ReadMsgBody {
+CLIENT -> SERVER: 			width: 100%;
+CLIENT -> SERVER: 			background-color: #ffffff;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		table {
+CLIENT -> SERVER: 			mso-table-lspace: 0pt;
+CLIENT -> SERVER: 			mso-table-rspace: 0pt;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		img {
+CLIENT -> SERVER: 			-ms-interpolation-mode: bicubic;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		.yshortcuts a {
+CLIENT -> SERVER: 			border-bottom: none !important;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		/**** ADD CSS HERE ****/
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		@media screen and (max-width: 599px) {
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 			table[class="force-row"],
+CLIENT -> SERVER: 			table[class="container"] {
+CLIENT -> SERVER: 				width: 100% !important;
+CLIENT -> SERVER: 				max-width: 100% !important;
+CLIENT -> SERVER: 			}
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		@media screen and (max-width: 400px) {
+CLIENT -> SERVER: 			td[class*="container-padding"] {
+CLIENT -> SERVER: 				padding-left: 12px !important;
+CLIENT -> SERVER: 				padding-right: 12px !important;
+CLIENT -> SERVER: 			}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 			.header-image {
+CLIENT -> SERVER: 				max-width: 100% !important;
+CLIENT -> SERVER: 				height: auto !important;
+CLIENT -> SERVER: 			}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 			table[class*="content-twocol"] {
+CLIENT -> SERVER: 				float: none;
+CLIENT -> SERVER: 			}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 			table[class*="content-twocol"],
+CLIENT -> SERVER: 			table[class*="content-twocol"] p,
+CLIENT -> SERVER: 			table[class*="content-twocol"] h1,
+CLIENT -> SERVER: 			table[class*="content-twocol"] h2,
+CLIENT -> SERVER: 			table[class*="content-twocol"] h3,
+CLIENT -> SERVER: 			table[class*="content-twocol"] h4 {
+CLIENT -> SERVER: 				text-align: left !important;
+CLIENT -> SERVER: 			}
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		 @media screen and (max-width: 400px) { 
+CLIENT -> SERVER:  } /**** ADD MOBILE CSS HERE ****/
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 		.ios-footer a {
+CLIENT -> SERVER: 			color: #aaaaaa !important;
+CLIENT -> SERVER: 			text-decoration: underline;
+CLIENT -> SERVER: 		}
+CLIENT -> SERVER: 	</style>
+CLIENT -> SERVER: </head>
+CLIENT -> SERVER: 
+CLIENT -> SERVER: <body style="background-color: #ffffff; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; margin: 0; padding: 0;">
+CLIENT -> SERVER: 	<span style="display:none; visibility:hidden; font-size: 1px !important;">
+CLIENT -> SERVER: Namerajendrasinh
+CLIENT -> SERVER: Emailrajendrasinhrathod.rao@gmail.com
+CLIENT -> SERVER: Phone7622098945
+CLIENT -> SERVER: Messagehelllo
+CLIENT -> SERVER: </span>
+CLIENT -> SERVER: 	<!-- 100% background wrapper (grey background) -->
+CLIENT -> SERVER: 	<table border="0" width="100%" height="100%" cellpadding="0" cellspacing="0" class="###plugin-class###" style="border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+CLIENT -> SERVER: 		<tr>
+CLIENT -> SERVER: 			<td align="center" valign="top" style="border-collapse: collapse;">
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 				<br>
+CLIENT -> SERVER: 				<table id="holder" class="container" border="0" cellspacing="0" cellpadding="0" style="border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; max-width: 600px!important;" align="center">
+CLIENT -> SERVER: 					<tr>
+CLIENT -> SERVER: 						<td align="center" style="border-collapse: collapse;">
+CLIENT -> SERVER: 							<table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+CLIENT -> SERVER: 								<tr>
+CLIENT -> SERVER: 									<td style="border-collapse: collapse;">
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 										<!--[if (gte mso 9)|(IE)]>
+CLIENT -> SERVER: 										<table id="outlookholder" class="container" width="600" border="0" cellspacing="0" cellpadding="0" align="center"><tr><td>
+CLIENT -> SERVER: 									<![endif]-->
+CLIENT -> SERVER: 										<!--header-table-->
+CLIENT -> SERVER: 										<table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+CLIENT -> SERVER: 											<tr>
+CLIENT -> SERVER: 												<td class="container-padding header" align="center" style="border-collapse: collapse; padding-left: 24px; padding-right: 24px; background: #ebebeb; color: #df4726; font-family: Helvetica, Arial, sans-serif; font-size: 24px; font-style: normal; font-weight: bold; line-height: 1.2; padding: 0px 0px 15px 0px; text-align: center !important; text-decoration: none; text-transform: uppercase;">
+CLIENT -> SERVER: 													<a href="http://localhost/newsite/wordpress" style="color: #df4726; font-family: Helvetica, Arial, sans-serif; font-size: 24px; font-style: normal; font-weight: bold; text-decoration: none; text-transform: uppercase;">				</a><table width="100%" cellpadding="0" cellspacing="0" style="border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+CLIENT -> SERVER: 					<tr>
+CLIENT -> SERVER: 						<td class="header-image" align="center" style="border-collapse: collapse; border: none; height: auto; vertical-align: top; text-align: center;">
+CLIENT -> SERVER: 							<img class="header-image full-width-header-image" src="https://templates.wp-html-mail.com/static/baby/header.png" style="-ms-interpolation-mode: bicubic; border: none; vertical-align: top; display: block; width: 600px; height: 200px;" width="600" height="200" alt="">						</td>
+CLIENT -> SERVER: 					</tr>
+CLIENT -> SERVER: <tr>
+CLIENT -> SERVER: 				</tr>
+CLIENT -> SERVER: </table>
+CLIENT -> SERVER: 				
+CLIENT -> SERVER: 												</td>
+CLIENT -> SERVER: 											</tr>
+CLIENT -> SERVER: 										</table>
+CLIENT -> SERVER: 										<!--/header-table-->
+CLIENT -> SERVER: 										<!--content-table-->
+CLIENT -> SERVER: 										<table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+CLIENT -> SERVER: 											<tr>
+CLIENT -> SERVER: 												<td class="content" align="" style="border-collapse: collapse; background-color: #ebebeb; padding-bottom: 12px; padding-top: 12px;">
+CLIENT -> SERVER: 													<div class="body-text" style="color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-style: normal; font-weight: normal; line-height: 1.5; text-align: left;">
+CLIENT -> SERVER: 														<table width="100%" border="0" cellpadding="0" cellspacing="0" id="" style="border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+CLIENT -> SERVER: 					<tr>
+CLIENT -> SERVER: 						<td class="container-padding" style="border-collapse: collapse; padding-left: 24px; padding-right: 24px; color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-style: normal; font-weight: normal; line-height: 1.5; text-align: left;">
+CLIENT -> SERVER: 							<table cellspacing="0" style="border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-size: 14px; line-height: 135%; border-bottom: 1px solid #cccccc;"><tbody>
+CLIENT -> SERVER: <tr style="background-color:#ffffff;">
+CLIENT -> SERVER: <th style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-style: normal; font-weight: normal; line-height: 1.5; text-align: left; color: #555555; padding: 7px 9px; vertical-align: top; border-top: 1px solid #cccccc;">Name</th>
+CLIENT -> SERVER: <td style="border-collapse: collapse; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-style: normal; font-weight: normal; line-height: 1.5; text-align: left; color: #555555; padding: 7px 9px; vertical-align: top; border-top: 1px solid #cccccc;">rajendrasinh</td>
+CLIENT -> SERVER: </tr>
+CLIENT -> SERVER: <tr style="background-color:#ffffff;">
+CLIENT -> SERVER: <th style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-style: normal; font-weight: normal; line-height: 1.5; text-align: left; color: #555555; padding: 7px 9px; vertical-align: top; border-top: 1px solid #cccccc;">Email</th>
+CLIENT -> SERVER: <td style="border-collapse: collapse; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-style: normal; font-weight: normal; line-height: 1.5; text-align: left; color: #555555; padding: 7px 9px; vertical-align: top; border-top: 1px solid #cccccc;">rajendrasinhrathod.rao@gmail.com</td>
+CLIENT -> SERVER: </tr>
+CLIENT -> SERVER: <tr style="background-color:#ffffff;">
+CLIENT -> SERVER: <th style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-style: normal; font-weight: normal; line-height: 1.5; text-align: left; color: #555555; padding: 7px 9px; vertical-align: top; border-top: 1px solid #cccccc;">Phone</th>
+CLIENT -> SERVER: <td style="border-collapse: collapse; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-style: normal; font-weight: normal; line-height: 1.5; text-align: left; color: #555555; padding: 7px 9px; vertical-align: top; border-top: 1px solid #cccccc;">7622098945</td>
+CLIENT -> SERVER: </tr>
+CLIENT -> SERVER: <tr style="background-color:#ffffff;">
+CLIENT -> SERVER: <th style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-style: normal; font-weight: normal; line-height: 1.5; text-align: left; color: #555555; padding: 7px 9px; vertical-align: top; border-top: 1px solid #cccccc;">Message</th>
+CLIENT -> SERVER: <td style="border-collapse: collapse; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-style: normal; font-weight: normal; line-height: 1.5; text-align: left; color: #555555; padding: 7px 9px; vertical-align: top; border-top: 1px solid #cccccc;">helllo</td>
+CLIENT -> SERVER: </tr>
+CLIENT -> SERVER: </tbody></table>
+CLIENT -> SERVER: 						</td>
+CLIENT -> SERVER: 					</tr>
+CLIENT -> SERVER: 				</table>
+CLIENT -> SERVER: 													</div>
+CLIENT -> SERVER: 												</td>
+CLIENT -> SERVER: 											</tr>
+CLIENT -> SERVER: 										</table>
+CLIENT -> SERVER: 										<!--/content-table-->
+CLIENT -> SERVER: 										<!--footer-table-->
+CLIENT -> SERVER: 										<table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+CLIENT -> SERVER: 											<tr>
+CLIENT -> SERVER: 												<td class="container-padding footer-text" align="left" style="border-collapse: collapse; font-family: Helvetica, Arial, sans-serif; padding-left: 24px; padding-right: 24px; background: #544114; color: #aaaaaa; font-size: 12px; line-height: 16px;">
+CLIENT -> SERVER: 													<p style="text-align: center;"><span style="color: #ffffff;"><span style="font-family: Helvetica, Arial, sans-serif;"><span style="font-size: 12px;">
+CLIENT -> SERVER: Rao Pharmacy,Rajkot 7622098945 
+CLIENT -> SERVER:   </span></span><span style="font-family: Helvetica, Arial, sans-serif; font-size: 12px;"><a style="font-style: normal; font-weight: normal; text-decoration: underline; text-transform: none; color: #ffffff;" href="http://localhost/newsite/wordpress/">www.RaoPharmacy.com</a></span></span></p>
+CLIENT -> SERVER: 													<br>
+CLIENT -> SERVER: 												</td>
+CLIENT -> SERVER: 											</tr>
+CLIENT -> SERVER: 										</table>
+CLIENT -> SERVER: 										<!--/footer-table-->
+CLIENT -> SERVER: 										<!--[if (gte mso 9)|(IE)]>
+CLIENT -> SERVER: 										</td></tr></table>
+CLIENT -> SERVER: 									<![endif]-->
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 									</td>
+CLIENT -> SERVER: 								</tr>
+CLIENT -> SERVER: 							</table>
+CLIENT -> SERVER: 
+CLIENT -> SERVER: 						</td>
+CLIENT -> SERVER: 					</tr>
+CLIENT -> SERVER: 				</table>
+CLIENT -> SERVER: 			</td>
+CLIENT -> SERVER: 		</tr>
+CLIENT -> SERVER: 	</table>
+CLIENT -> SERVER: 	<!--/100% background wrapper-->
+CLIENT -> SERVER: 
+CLIENT -> SERVER: </body>
+CLIENT -> SERVER: 
+CLIENT -> SERVER: </html>
+CLIENT -> SERVER: 
+CLIENT -> SERVER: .
+CLIENT -> SERVER: QUIT
