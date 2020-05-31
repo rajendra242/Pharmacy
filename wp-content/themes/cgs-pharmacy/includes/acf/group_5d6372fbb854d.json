@@ -1,0 +1,43 @@
+{
+    "key": "group_5d6372fbb854d",
+    "title": "Contact Page Options",
+    "fields": [
+        {
+            "key": "field_5d637338067d3",
+            "label": "Embed Google Map",
+            "name": "cgs_pharmacy_embed_google_map",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "templates\/template_contact_us.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1567423556
+}

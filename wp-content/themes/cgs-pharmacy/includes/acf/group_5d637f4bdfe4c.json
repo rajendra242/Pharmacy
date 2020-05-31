@@ -1,0 +1,136 @@
+{
+    "key": "group_5d637f4bdfe4c",
+    "title": "Inner Page Banner Option",
+    "fields": [
+        {
+            "key": "field_5d63819724dec",
+            "label": "Show Inner Banner",
+            "name": "cgs_pharmacy_show_inner_banner",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "yes": "Yes",
+                "no": "No"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "default_value": "yes : Yes",
+            "layout": "vertical",
+            "return_format": "value",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_5d637f7a72cf3",
+            "label": "Banner Image",
+            "name": "cgs_pharmacy_banner_image",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_5d63800e2a04d",
+            "label": "Title on Banner",
+            "name": "cgs_pharmacy_title_on_banner",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5d638032e8f17",
+            "label": "Title Color",
+            "name": "cgs_pharmacy_title_color",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#FFFFFF"
+        },
+        {
+            "key": "field_5d6382d360727",
+            "label": "Title Alignment",
+            "name": "cgs_pharmacy_title_alignment",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "left": "Left",
+                "center": "Center",
+                "right": "Right"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "default_value": "left : Left",
+            "layout": "vertical",
+            "return_format": "value",
+            "save_other_choice": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "page"
+            },
+            {
+                "param": "page_template",
+                "operator": "!=",
+                "value": "templates\/template_home.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1567423556
+}
